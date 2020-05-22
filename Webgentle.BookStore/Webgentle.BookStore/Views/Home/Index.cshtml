@@ -1,0 +1,34 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Welcome to book store applicaton and this is Index page</h1>
+    <h1>@DateTime.Now.ToString("dd-M-yy")</h1>
+    <h1>Sum = @(3+5)</h1>
+
+    <h1>Multiline</h1>
+    @{ 
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+    }
+
+    <h1> How to write Email</h1>
+    <h2>Email - engr.asmaul@gmail.com</h2>
+    <h1>Thw summation result is = @c</h1>
+
+    <h1>Write Twitter ID</h1>
+    <h2>Twitter - @@asmaul </h2>
+
+    <p>This is my first applications and this is learnign stage</p>
+</body>
+</html>
