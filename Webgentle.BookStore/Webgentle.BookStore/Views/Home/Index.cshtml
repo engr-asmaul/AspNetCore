@@ -9,10 +9,39 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link href="~/css/Site.css" rel="stylesheet" />
 </head>
 <body>
+
+    <img src="~/images/logo.png" class="logo" alt="logo"/>
+
+    <img src="~/MyStaticFiles/pic.png" alt="dummy"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <h1>Welcome to book store applicaton and this is Index page</h1>
-    <h1>@DateTime.Now.ToString("dd-M-yy")</h1>
+
+    @*<h1>@DateTime.Now.ToString("dd-M-yy")</h1>
     <h1>Sum = @(3+5)</h1>
 
     <h1>Multiline</h1>
@@ -27,8 +56,23 @@
     <h1>Thw summation result is = @c</h1>
 
     <h1>Write Twitter ID</h1>
-    <h2>Twitter - @@asmaul </h2>
+    <h2>Twitter - @@asmaul </h2>*@
 
-    <p>This is my first applications and this is learnign stage</p>
+
+    @{ 
+        int a = 10;
+    }
+
+    @if(a>5)
+    {
+        <h1>Hello from if block</h1>
+    }
+    else
+    {
+       
+    }
+
+
+
 </body>
 </html>
